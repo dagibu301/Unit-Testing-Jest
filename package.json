@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
-  "author": "",
+  "author": "David Giraldo",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.0.4"

@@ -43,3 +43,8 @@ test("Test a promise", () => {
     expect(str).toBe("olleH");
   });
 });
+
+test("Test async/await", async () => {
+    const string = await reverseString2("Hello");
+    expect(string).toBe("olleH");
+  });

@@ -14,3 +14,7 @@ test('It should have a banana', () => {
 test('It should be greater', () => {
     expect(10).toBeGreaterThan(9);
 });
+
+test('It should be truthy', () => {
+    expect(true).toBeTruthy();
+});
